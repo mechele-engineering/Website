@@ -1,0 +1,216 @@
+/* For tablets in portrait and landscape orientation */
+@media (min-width: 700px) and (max-width: 950px) {
+
+    .grid-1-content {
+        padding: 10vh;
+        width: 90%;
+        text-align: center;
+    }
+    .grid-1-content p{
+        text-align: justify;
+    }
+    .page-item{
+        font-size: 28px;
+    }
+
+    .row-home-services{
+        flex-direction: column;
+    }
+    .column-6-tab-home-grid-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .grid-2-home {
+        display: grid;
+        grid-template-columns: repeat(10, 6vw);
+        grid-template-rows: repeat(12, 6vw);
+        gap: 15px;
+    }
+    .grid-2-content {
+        padding: 5vh;
+    }
+    .grid-2-content h2 {
+        padding-bottom: 0vh;
+        text-align: justify;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+    }
+    .grid-2-content p {
+        font-size: 15px;
+    }
+    .card {
+        max-width: 300px;
+    }
+    .testimonial {
+        height: 100vh;
+    }
+    .grid-3-lottie{
+        z-index: -1;
+    }
+    .about {
+        padding: 5vh 5vh;
+    }
+    .about-features-content {
+        font-size: 12px;
+        text-align: center;
+        height: 70%;
+        min-width: 35%;
+    }
+    .about-features-left{
+        margin: 0;
+    }
+    .about-features-left p {
+        font-size: 18px;
+    }
+    .about-last-content p {
+        font-size: 18px;
+    }
+    .about-client-heading {
+        max-width: 1200px;
+        text-align: center;
+    }
+    .about-client-heading p {
+        font-size: 18px;
+        color: #4D4D4D;
+    }
+    .accordion__item .accordion__content {
+        overflow: scroll;
+    }
+    .Content_content p {
+        font-size: 16px;
+    }
+    .Content_img img {
+        border-radius: 30PX;
+        padding: 3vh;
+    }
+    .client-space {
+        padding: 0;
+    }
+    .about-client-logo-img img {
+        height: 4vh;
+    }
+    .grid-1-content {
+        padding: 5vh;
+        width: 90%;
+        text-align: center;
+    }
+    .tabs {
+        width: 90%;
+    }
+    .grid-prd-img {
+        display: grid;
+        grid-template-rows: repeat(5, 8vw);
+        grid-template-columns: repeat(5, 14vw);
+        grid-gap: 12px;
+    }
+    .grid-img {
+        border-radius: 5px;
+    }
+    .blog0{
+        flex-direction: column;
+    }
+    .featured-row {
+        flex-direction: column;
+    }
+    .blog_content {
+        padding: 5vh;
+    }
+    .services-right{
+        margin-top: -20vh   ;
+    }
+    .about-tab{
+        flex-direction: column-reverse;
+    }
+    .about-img img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    .about-grid {
+        display: grid
+    ;
+        grid-template-columns: repeat(4, 14vw);
+        grid-template-rows: repeat(4, 14vw);
+        gap: 10px;
+    }
+    .About_us_Client {
+        height: 45vh;
+    }
+    .about-client-heading p {
+        font-size: 18px;
+        max-width: 80%;
+        color: #4D4D4D;
+    }
+    .Content_content h2 {
+        text-align: left; /* Maintains alignment */
+        word-wrap: break-word; /* Breaks long words */
+        overflow-wrap: break-word; /* Ensures breaking in all cases */
+        white-space: normal; 
+        height: 25vh;
+    }
+    .strength_category {
+        flex-basis: 30%;
+        padding: 0vh;
+    }
+    .column-5 {
+        flex-basis: 10%;
+    }
+    .column-5 li {
+        padding-bottom: 14px;
+        font-size: 12px;
+    }
+    .contact-us{
+        flex-direction: column;
+        margin: 4vh;
+    }
+    .map>.row {
+        width: 90%;
+        margin-bottom: 5vh;
+    }
+    .map {
+        padding: 0vh;
+        position: relative;
+    }
+    .blog-responsiveness{
+        flex-basis: 25%;
+    }
+    .blog-3-grid-content h3 {
+        font-size: 28px;
+    }
+    .grid-2-container {
+        margin-top: 0vh;
+    }
+    .iso-img{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .iso-img img{
+        height: 380px;
+        width: auto;
+    }
+    .iso h2 {
+        font-size: 35px;
+    }
+    .strength_heading h2{
+        text-align: center; /* Maintains alignment */
+    word-wrap: break-word; /* Breaks long words */
+    overflow-wrap: break-word; /* Ensures breaking in all cases */
+    white-space: normal;
+    }
+    .brainstorm {
+        height: 90vh;
+    }
+    .brainstorm-content{
+        width: 80%;
+    }
+    .brainstorm-content h4{
+        width: 80%;
+    }
+    .navbar-center {
+        margin-left: -10%;
+    }
+  }

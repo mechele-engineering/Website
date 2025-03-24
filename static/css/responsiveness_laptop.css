@@ -1,0 +1,51 @@
+@media only screen and (min-width:900px) and (max-width:1100px) {
+    .Content_content h2 {
+        text-align: justify;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+        height: 15vh;
+    }
+    .strength_category {
+        flex-basis: 31%;
+        padding: 1vh;
+    }
+    .about-last-content h2 {
+        text-align: justify;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+        height: 18vh;
+    }
+    .about-client-heading p {
+       max-width: 80%;
+    }
+    .about-features-content {
+        border: 1px solid #fff;
+        height: 60%;
+        border-radius: 8px;
+        margin-right: 2vh;
+        text-align: center;
+    }
+    .grid-1-content {
+        padding: 10vh;
+        width: 100%;
+        text-align: center;
+    }
+    .client-heading p {
+        font-size: 18px;
+        color: #717171;
+    }
+    .brainstorm {
+        height: 75vh;
+        background-color: #4C1D95;
+    }
+    .testimonial {
+        background-color: #0F172A;
+        height: 70vh;
+        margin-top: 4vh;
+    }
+    .navbar-center {
+        margin-left: -8%;
+    }
+}

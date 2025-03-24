@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mechelle Engineering</title>
+      <link rel="icon" href="static/image/img/mechelle_gear.png">
+      <link rel="stylesheet" href="static/css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="static/css/responsiveness.css">
+      <link rel="stylesheet" href="static/css/responsiveness_tab.css">
+      <link rel="stylesheet" href="static/css/responsiveness_laptop.css">
+      <!-- Organization Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Mechelle Engineering",
+        "url": "https://www.mecheleengineering.com",
+        "logo": "https://www.mecheleengineering.com/static/logo.png",
+        "description": "Mechele Engineering specializes in precision pressing, design, manufacturing, and fit-checking of automobile parts.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "MECHELE ENGINEER, Maraimalai Nagar",
+          "addressLocality": "Maraimalai Nagar",
+          "addressRegion": "Tamil Nadu",
+          "postalCode": "603209",
+          "addressCountry": "IN"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91 99413 98225",
+          "contactType": "customer service",
+          "areaServed": "IN",
+          "availableLanguage": "en"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/mechele-engineering",
+          "https://www.facebook.com/mecheleengineering",
+          "https://www.instagram.com/mecheleengineering"
+        ]
+      }
+      </script>
+  
+      <!-- WebPage Schema (About Us Page) -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "About Us",
+        "url": "https://www.mecheleengineering.com/about.html",
+        "description": "Learn about Mechele Engineering, a leading automotive parts manufacturer specializing in precision pressing and fit-checking.",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.mecheleengineering.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "About Us",
+              "item": "https://www.mecheleengineering.com/about.html"
+            }
+          ]
+        }
+      }
+      </script>
+   </head>
+   <body>
+      <header class="sticky-header">
+         <nav class="navbar">
+            <div class="navbar-left">
+               <a href="index.html"><img src="/static/image/img/mechelle_logo.png" alt="Company Logo" class="logo"></a>
+            </div>
+            <div class="navbar-center">
+               <span class="menu-text" id="menu-button">Menu</span>
+            </div>
+            <div class="navbar-right">
+               <!-- <i class="fas fa-globe"></i>
+                  <span class="language">EN</span> -->
+               <a href="contactus.html#map"> <i class="fas fa-map-marker-alt"></i> </a>
+            </div>
+         </nav>
+      </header>
+      <div class="modal" id="modal">
+         <div class="modal-content">
+            <button class="close-button" id="close-button">&times;</button>
+            <div class="modal-section modal-header">
+               <img src="static/image/img/mechelle_gear.png" alt="Company Logo" class="modal-logo">
+            </div>
+            <div class="modal-section pages">
+               <ul class="page-list">
+                  <a href="/index.html">
+                     <li class="page-item">
+                        <img src="static/image/img/mechelle_gear.png" class="gear-icon" alt=""> Home
+                     </li>
+                  </a>
+                  <a href="/aboutus.html">
+                     <li class="page-item active">
+                        <img src="static/image/img/mechelle_gear.png" class="gear-icon" alt=""> About
+                     </li>
+                  </a>
+                  <a href="/manufacturing.html">
+                     <li class="page-item">
+                        <img src="static/image/img/mechelle_gear.png" class="gear-icon" alt=""> Manufacturing
+                     </li>
+                  </a>
+                  <a href="/product.html">
+                     <li class="page-item">
+                        <img src="static/image/img/mechelle_gear.png" class="gear-icon" alt=""> Products
+                     </li>
+                  </a>
+                  <a href="clients.html">
+                     <li class="page-item">
+                        <img src="static/image/img/mechelle_gear.png" class="gear-icon" alt=""> Clients
+                     </li>
+                  </a>
+                  <a href="contactus.html">
+                     <li class="page-item">
+                        <img src="static/image/img/mechelle_gear.png" class="gear-icon" alt=""> Contact
+                     </li>
+                  </a>
+                  <a href="/blog.html">
+                     <li class="page-item">
+                        <img src="static/image/img/mechelle_gear.png" class="gear-icon" alt=""> Blog
+                     </li>
+                  </a>
+               </ul>
+            </div>
+            <div class="modal-section">
+               <a href="contactus.html"><button class="contact-button">Contact Us</button></a>
+               <!-- <div class="social-media">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  </div> -->
+            </div>
+         </div>
+      </div>
+      <!-------------------------Hero Banner---------------------->
+      <section>
+         <div class="hero aboutus-hero">
+            <div class="container about-hero">
+               <div class="hero-content about-hero-content">
+                  <div class="about-heading-border" style="text-align: left;">
+                     <h1>Engineering Excellence, Driving Innovation</h1>
+                  </div>
+                  <p>Shaping the future of automobile part manufacturing with precision-engineered checking fixtures,
+                     jigs, and fit-checking solutions
+                  </p>
+                  <!-- <a href="#your-link" class="btn">Learn More</a> -->
+               </div>
+            </div>
+         </div>
+      </section>
+      <!------------------------- Pictue , Tab ---------------------->
+      <section>
+         <div class="container about">
+            <div class="row about-tab">
+               <div class="column-6 about-img flex-center">
+                  <img src="static/image/aboutus/office.PNG" alt="">
+               </div>
+               <div class="column-6 about-content about-content-padding">
+                  <div class="row">
+                     <div class="column about-content ">
+                        <p>About</p>
+                        <h2 class="gradient-text typewrite" data-text="Mechelle Engineering"></h2>
+                        <p>Mechelle Engineering is a leading provider of checking fixtures, jigs, and fit-checking
+                           solutions for the automotive industry. We specialize in delivering high-quality,
+                           precision-engineered components for two-wheeler and four-wheeler plastic and sheet metal
+                           parts. With a commitment to quality, durability, and innovation, our solutions ensure
+                           perfect fit and accuracy in every component manufactured.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="tab-container">
+                        <div class="tab-header">
+                           <button onclick="openTab('tab1')" class="tab-link" id="defaultTab">Our
+                           Expertise</button>
+                           <button onclick="openTab('tab2')" class="tab-link">Our Commitment to Quality</button>
+                           <button onclick="openTab('tab3')" class="tab-link">Innovation & Technology</button>
+                        </div>
+                        <div class="tab-content" id="tab1">
+                           <p>With years of experience in automotive engineering, we specialize in the design,
+                              manufacturing, and validation of checking fixtures and jigs. Our skilled team
+                              ensures that every component meets stringent industry standards, delivering
+                              reliability and efficiency..
+                           </p>
+                           <a href="contactus.html"><button  class="tab-btn button" >Learn More About Our
+                           Services</button></a>
+                        </div>
+                        <div class="tab-content" id="tab2" style="display:none;">
+                           <p>Quality is embedded in our process. Every part undergoes rigorous testing and quality
+                              control measures to meet industry requirements. From material selection to final
+                              fit-check validation, we ensure that each product delivers precision and durability.
+                           </p>
+                           <a href="manufacturing.html"><button  class="tab-btn button">Explore Our Quality
+                           Standards</button></a>
+                        </div>
+                        <div class="tab-content" id="tab3" style="display:none;">
+                           <p>At Mechelle Engineering, we integrate cutting-edge technology and advanced
+                              prototyping into our production process. With state-of-the-art CNC machining, CMM
+                              inspection, and automated quality assurance systems, we maintain high precision in
+                              every production cycle.
+                           </p>
+                           <a href="product.html"><button class="tab-btn button">See Our Technology in
+                           Action</button></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!------------------------- Why Choose us ---------------------->
+      <section>
+         <div class="container about-features">
+            <div class="row">
+               <div class="column-6  about-features-left">
+                  <p>Engineering Excellence, Precision Guaranteed</p>
+                  <h2>Why Choose Mechelle Engineering?</h2>
+                  <p>With a strong foundation in design, manufacturing, and fit-checking, Mechelle Engineering is
+                     committed to delivering high-precision checking fixtures, jigs, and automotive components. Our
+                     expertise in advanced technology and quality assurance ensures that every product meets the
+                     highest industry standards for durability, accuracy, and performance.
+                  </p>
+               </div>
+               <div class="column-6 flex-center about-features-logo-content">
+                  <div class="column-4 about-features-content flex-center">
+                     <img src="static/image/aboutus/settings.png" alt="">
+                     <h2>Cutting-Edge Technology</h2>
+                  </div>
+                  <div class="column-4 about-features-content flex-center">
+                     <img src="static/image/aboutus/arm-muscle.png" alt="">
+                     <h2>Quality & Durability</h2>
+                  </div>
+                  <div class="column-4 about-features-content flex-center">
+                     <img src="static/image/aboutus/blueprint (1).png" alt="">
+                     <h2>Industry Expertise</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!------------------------- Innovation in every detail ---------------------->
+      <section>
+         <div class="container about-grid-container">
+            <div class="row about-tab">
+               <div class="column-6 flex-center responsiveness-column">
+                  <div class="about-grid ">
+                     <figure class=" about-grid-img---1">
+                        <img src="static/image/aboutus/Small Photo.jpg" alt="Hero Image 1" class="about-grid-img">
+                     </figure>
+                     <figure class=" about-grid-img---2">
+                        <img src="static/image/aboutus/Large Photo.jpg" alt="Hero Image 2" class="about-grid-img">
+                     </figure>
+                  </div>
+               </div>
+               <div class="column-6 flex-center about-last-content responsiveness-column">
+                  <p>Innovation in Every Detail</p>
+                  <h2 class="gradient-text typewrite" data-text="Engineering Beyond Limits"></h2>
+                  <p>At Mechelle Engineering, we integrate state-of-the-art technology with expert craftsmanship to
+                     deliver precision-engineered checking fixtures and jigs for the automotive industry. Our
+                     commitment to quality, durability, and efficiency ensures that every component meets global
+                     industry standards. With an ISO-certified facility, advanced CNC machining, and CMM validation
+                     processes, we provide solutions that drive automotive innovation forward.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- --------------------------- About_us_Client -------------------------  -->
+      <section class="flex-center  container About_us_Client">
+         <div class="about-client-heading flex-center">
+            <h2>Trusted by Industry Leaders</h2>
+            <p style="text-align: center;">Mechelle Engineering takes pride in collaborating with some of the most
+               renowned names in the automotive industry. 
+            </p>
+         </div>
+         <div class="swiper-container">
+            <div class="swiper-wrapper about-client-logo-img about-us-gap">
+               <div class="swiper-slide">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/AtherLogo.jpg" alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://ampere.greaveselectricmobility.com/storage/images/logos/ampere_black.svg" alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Citroen_2022.svg/800px-Citroen_2022.svg.png"
+                     alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://www.hyundai.com/etc/designs/hyundai/ww/en/images/common/logo.png" alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://www.hondacarindia.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.5841d9c0.png&w=3840&q=75"
+                     alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://www.kia.com/etc.clientlibs/settings/wcm/designs/eut/clientlib/resources/rbr/logo_kia_black-rbr.png"
+                     alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="	https://www.mahindra.com/sites/default/files/2025-01/mahindra-rise.png" alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://www.nissan-global.com/library/assets/img/hd_logo.svg" alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://www.carlogos.org/logo/Renault-logo-2007-640x550.jpg" alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://www.royalenfield.com/content/dam/royal-enfield/india/logos/logo.svg" alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://brand.toyota.com/content/dam/brandhub/VIS_toyota_logo_horiz_black_RGB_2021.svg"
+                     alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Tata_Motors_Logo.svg/1920px-Tata_Motors_Logo.svg.png"
+                     alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://cdn.suzukimotorcycle.co.in/public-live/images/website/logo.jpg" alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://yamaha-motor.com/_next/image?url=%2Fimages%2F3D-red.png&w=384&q=75" alt="">
+               </div>
+               <div class="swiper-slide">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/800px-Volkswagen_logo_2019.svg.png"
+                     alt="">
+               </div>
+            </div>
+         </div>
+         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+         <script>
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 'auto',
+                loop: true,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+            });
+         </script>
+      </section>
+      <!-- ----------------fAQ------------- -->
+      <section>
+         <div class="container faq">
+            <div class="column flex-center faq-heading">
+               <h2 class="gradient-text typewrite small-lp" data-text="Frequently Asked Questions"></h2>
+            </div>
+            <div class="column flex-center">
+               <div class="accordion">
+                  <div class="accordion__item">
+                     <div class="accordion__header" data-toggle="#faq1">What industries do you serve?</div>
+                     <div class="accordion__content" id="faq1">
+                        <p>Mechelle Engineering specializes in the automotive industry, providing high-quality
+                           pressed components for manufacturers and suppliers worldwide.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="accordion__item">
+                     <div class="accordion__header" data-toggle="#faq2">What materials do you use in manufacturing?
+                     </div>
+                     <div class="accordion__content" id="faq2">
+                        <p>We work with a variety of materials, including high-strength steel, aluminum, and
+                           specialized alloys to ensure durability and precision.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="accordion__item">
+                     <div class="accordion__header" data-toggle="#faq3">Can you provide custom engineering solutions?
+                     </div>
+                     <div class="accordion__content" id="faq3">
+                        <p>Yes, we offer tailored engineering solutions to meet specific client needs, from design
+                           to prototyping and final production.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-----------Footer---------------->
+      <footer>
+         <div class="container footer flex-center">
+            <div class="row mobile-row">
+               <div class="column-5 footer-1 ">
+                  <img src="static/image/img/mechelle_logo.png" alt="">
+               </div>
+               <div class="column-5">
+                  <ul>
+                     <a href="index.html">
+                        <li>Home</li>
+                     </a>
+                     <a href="aboutus.html">
+                        <li>About</li>
+                     </a>
+                     <a href="manufacturing.html">
+                        <li>Manufacturing</li>
+                     </a>
+                     <a href="clients.html">
+                        <li>Clients</li>
+                     </a>
+                     <a href="contactus.html">
+                        <li>Contact</li>
+                     </a>
+                     <a href="blog.html">
+                        <li>Blog</li>
+                     </a>
+                  </ul>
+               </div>
+               <div class="column-5">
+                  <ul>
+                     <a href="product.html#car-1"><li>Car Component 1</li></a>
+                     <a href="product.html#car-2"><li>Car Component 2</li></a>
+                     <a href="product.html#bike-1"><li>Bike Component 1</li></a>
+                     <a href="product.html#bike-2"><li>Bike Component 2</li></a>
+                  </ul>
+               </div>
+               <div class="column-5">
+                  <ul>
+                     <!-- <h2>Contact Us</h2> -->
+                     <li>MECHELE ENGINEERING, Maraimalai Nagar, Tamil Nadu 603209
+                     </li>
+                     <li>info@mechelleengineering.com</li>
+                     <li>+1 234 567 8900</li>
+                     <li>Mon-Fri: 9 AM - 6 PM</li>
+                  </ul>
+               </div>
+               <div class="column-5">
+                  <ul>
+                     <!-- <h2>Contact Us</h2> -->
+                     <li>LinkedIn
+                     </li>
+                     <li>Twitter</li>
+                     <li>Facebook</li>
+                     <li>Instagram</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="row ">
+               <div class="column terms-rights">
+                  <div class="rights">
+                     <p>© 2024 all rights reserved by mechele engineering.</p>
+                  </div>
+                  <div class="terms">
+                     <ul>
+                        <a href="Terms_and_Privacy.html">
+                           <li>Terms</li>
+                        </a>
+                        <a href="Terms_and_Privacy.html#privacy">
+                           <li>Privacy</li>
+                        </a>
+                        <a href="contactus.html">
+                           <li>Contact</li>
+                        </a>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script src="static/js/script.js"></script>
+   </body>
+</html>
