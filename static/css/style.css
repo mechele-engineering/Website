@@ -1621,7 +1621,7 @@ a {
 	flex-basis: 38%;
 	align-items: self-start;
 	gap: 5vh;
-	background: url('static/image/contactus/Frame\ 1.jpg') no-repeat center / cover;
+	background: url('/static/image/contactus/Frame\ 1.jpg') no-repeat center / cover;
 	color: #FFFFFF;
 	padding: 2vh;
 	border-radius: 10px;
