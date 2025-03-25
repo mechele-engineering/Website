@@ -376,27 +376,28 @@ img {
 
 .index-hero {
 
-	background: url('static/image/home/Home\ Banner.jpg') center/cover no-repeat;
+	background: url('/static/image/home/Home\ Banner.jpg') center/cover no-repeat;
 
 }
 
 .services-hero {
 
-	background: url('static/image/manufacturing_page/services-Header.jpg') center/cover no-repeat;
+	background: url('/static/image/manufacturing_page/services-Header.jpg') center/cover no-repeat;
 
 }
 
 .aboutus-hero {
 
-	background: url('static/image/aboutus/Header.jpg') center/cover no-repeat;
+	background: url('/static/image/aboutus/Header.jpg') center/cover no-repeat;
 
 }
 
 .blog-hero {
 
-	background: url('static/image/blog/blog_Header.jpg') center/cover no-repeat;
+	background: url('/static/image/blog/blog_Header.jpg') center/cover no-repeat;
 
 }
+
 
 .hero::before {
 	content: '';
@@ -1432,7 +1433,7 @@ a {
 }
 
 .about-features {
-	background-image: url("static/image/aboutus/Section 2 - Product Features.jpg");
+	background-image: url("/static/image/aboutus/Section\ 2\ -\ Product\ Features.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
