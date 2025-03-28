@@ -155,56 +155,62 @@
                      </div>
                   </div>
                   <div class="column-6 contactus-right flex-center">
-                     <form  class="form-container-right" name="contact" method="POST"   > 
+                     <form class="form-container-right" name="contact" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact">
+                        
                         <div class="container form-flex">
-                           <div class="form-row column-6">
-                              <label for="name">Name</label>
-                              <input type="text" name="name" id="name">
-                           </div>
-                           <div class="form-row column-6">
-                              <label for="last-name">Last Name</label>
-                              <input type="text"  name="last name" id="last-name">
-                           </div>
+                            <div class="form-row column-6">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" required>
+                            </div>
+                            <div class="form-row column-6">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last_name" id="last-name" required>
+                            </div>
                         </div>
+                    
                         <div class="container form-flex">
-                           <div class="form-row column-6">
-                              <label for="Mail">Mail</label>
-                              <input type="email"  name="email" id="mail">
-                           </div>
-                           <div class="form-row column-6">
-                              <label for="number">Number</label>
-                              <input type="tel" name="number" id="number">
-                           </div>
+                            <div class="form-row column-6">
+                                <label for="mail">Mail</label>
+                                <input type="email" name="email" id="mail" required>
+                            </div>
+                            <div class="form-row column-6">
+                                <label for="number">Number</label>
+                                <input type="tel" name="number" id="number" required>
+                            </div>
                         </div>
-                        <!-- <div class="container form-flex">
-                           <div class="form-radio">
-                              <label for="genral-enquiry">Genral Enquiry</label>
-                              <input type="checkbox"   name="requirement" value="Genral Enquiry">
-                           </div>
-                           <div class="form-radio">
-                              <label for="genral-enquiry">Request a Quote</label>
-                              <input type="checkbox"   name="requirement" value="Request a Quote">
-                           </div>
-                           <div class="form-radio">
-                              <label for="genral-enquiry">Product Information
-                              </label>
-                              <input type="checkbox"  name="requirement" value="Product Information">
-                           </div>
-                           <div class="form-radio">
-                              <label for="genral-enquiry">Partnership Opportunities</label>
-                              <input type="checkbox"   name="requirement" value="Partnership Opportunitie">
-                           </div>
-                           <div class="form-radio">
-                              <label for="genral-enquiry">Technical Support</label>
-                              <input type="checkbox"   name="requirement" value="Technical Support">
-                           </div>
-                        </div> -->
+                    
+                        <div class="container form-flex">
+                            <div class="form-radio">
+                                <input type="checkbox" id="general-enquiry" name="requirement" value="General Enquiry">
+                                <label for="general-enquiry">General Enquiry</label>
+                            </div>
+                            <div class="form-radio">
+                                <input type="checkbox" id="request-quote" name="requirement" value="Request a Quote">
+                                <label for="request-quote">Request a Quote</label>
+                            </div>
+                            <div class="form-radio">
+                                <input type="checkbox" id="product-info" name="requirement" value="Product Information">
+                                <label for="product-info">Product Information</label>
+                            </div>
+                            <div class="form-radio">
+                                <input type="checkbox" id="partnership" name="requirement" value="Partnership Opportunities">
+                                <label for="partnership">Partnership Opportunities</label>
+                            </div>
+                            <div class="form-radio">
+                                <input type="checkbox" id="technical-support" name="requirement" value="Technical Support">
+                                <label for="technical-support">Technical Support</label>
+                            </div>
+                        </div>
+                    
                         <div class="column form-textarea">
-                           <label for="message">Message</label>
-                           <textarea  name="message" id="message"></textarea>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" required></textarea>
                         </div>
+                    
                         <button type="submit" class="tab-btn button">Submit</button>
-                     </form>
+                    </form>
+                    
                   </div>
                </div>
             </div>
